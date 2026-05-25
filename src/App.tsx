@@ -10,6 +10,7 @@ import NotFound from "./pages/NotFound";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsConditions from "./pages/TermsConditions";
 import CryptoMining from "./pages/articles/CryptoMining";
+import NaturalBeautyIngredients from "./pages/articles/NaturalBeautyIngredients";
 
 const queryClient = new QueryClient();
 
@@ -50,6 +51,8 @@ const App = () => (
           <Route path="*" element={<NotFound />} />
                 {/* DOMAINER_ROUTE:CryptoMining */}
         <Route path="/articles/crypto-mining" element={<CryptoMining />} />
+        {/* DOMAINER_ROUTE:NaturalBeautyIngredients */}
+        <Route path="/articles/natural-beauty-ingredients" element={<NaturalBeautyIngredients />} />
 </Routes>
       </BrowserRouter>
     </TooltipProvider>
