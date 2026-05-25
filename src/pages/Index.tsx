@@ -30,31 +30,31 @@ const Index = () => {
             {/* DOMAINER_NAV:/articles/anti-aging-skincare-tips */}
       <Link
         to="/articles/anti-aging-skincare-tips"
-        className="block mx-6 md:mx-12 mb-4 rounded-2xl border border-border bg-card hover:bg-accent transition-colors duration-200 shadow-sm group"
+        className="block mx-6 md:mx-12 mb-4 rounded-2xl border border-border bg-card hover:border-primary/50 hover:shadow-md transition-all duration-200 group"
       >
         <div className="px-6 py-5 flex items-center justify-between gap-4">
-          <span className="text-base font-semibold text-foreground group-hover:text-primary transition-colors">Anti-Aging Skincare Tips</span>
-          <span className="shrink-0 text-muted-foreground group-hover:text-primary transition-colors text-xl leading-none">→</span>
+          <span className="text-base font-semibold text-foreground group-hover:underline decoration-primary/60 underline-offset-2 transition-all">Anti-Aging Skincare Tips</span>
+          <span className="shrink-0 text-muted-foreground text-xl leading-none group-hover:translate-x-1 transition-transform">→</span>
         </div>
       </Link>
       {/* DOMAINER_NAV:/articles/natural-beauty-ingredients */}
       <Link
         to="/articles/natural-beauty-ingredients"
-        className="block mx-6 md:mx-12 mb-4 rounded-2xl border border-border bg-card hover:bg-accent transition-colors duration-200 shadow-sm group"
+        className="block mx-6 md:mx-12 mb-4 rounded-2xl border border-border bg-card hover:border-primary/50 hover:shadow-md transition-all duration-200 group"
       >
         <div className="px-6 py-5 flex items-center justify-between gap-4">
-          <span className="text-base font-semibold text-foreground group-hover:text-primary transition-colors">Natural Beauty Ingredients</span>
-          <span className="shrink-0 text-muted-foreground group-hover:text-primary transition-colors text-xl leading-none">→</span>
+          <span className="text-base font-semibold text-foreground group-hover:underline decoration-primary/60 underline-offset-2 transition-all">Natural Beauty Ingredients</span>
+          <span className="shrink-0 text-muted-foreground text-xl leading-none group-hover:translate-x-1 transition-transform">→</span>
         </div>
       </Link>
       {/* DOMAINER_NAV:/articles/korean-beauty-routine */}
       <Link
         to="/articles/korean-beauty-routine"
-        className="block mx-6 md:mx-12 mb-4 rounded-2xl border border-border bg-card hover:bg-accent transition-colors duration-200 shadow-sm group"
+        className="block mx-6 md:mx-12 mb-4 rounded-2xl border border-border bg-card hover:border-primary/50 hover:shadow-md transition-all duration-200 group"
       >
         <div className="px-6 py-5 flex items-center justify-between gap-4">
-          <span className="text-base font-semibold text-foreground group-hover:text-primary transition-colors">Korean Beauty Routine</span>
-          <span className="shrink-0 text-muted-foreground group-hover:text-primary transition-colors text-xl leading-none">→</span>
+          <span className="text-base font-semibold text-foreground group-hover:underline decoration-primary/60 underline-offset-2 transition-all">Korean Beauty Routine</span>
+          <span className="shrink-0 text-muted-foreground text-xl leading-none group-hover:translate-x-1 transition-transform">→</span>
         </div>
       </Link>
 <Footer />
