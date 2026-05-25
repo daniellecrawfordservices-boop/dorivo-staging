@@ -1,11 +1,11 @@
-import { Helmet } from "react-helmet-async";
 
-export default function CryptoMining() {
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+
+const CryptoMining = () => {
   return (
-    <main className="min-h-screen bg-background">
-      <Helmet>
-        <title>Crypto Mining: Leverage Blockchain for Your Cosmetic Brand</title>
-      </Helmet>
+    <div className="min-h-screen bg-background">
+      <Header />
       <section className="py-12 md:py-20 px-6 md:px-12">
         <div className="max-w-7xl mx-auto space-y-8">
           <h1 className="text-3xl md:text-4xl font-bold text-foreground">Crypto Mining and the Cosmetics Industry</h1>
@@ -59,6 +59,8 @@ export default function CryptoMining() {
           </p>
         </div>
       </section>
-    </main>
+    <Footer />
+    </div>
   );
 }
+export default CryptoMining;
