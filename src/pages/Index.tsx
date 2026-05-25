@@ -10,6 +10,7 @@ import OverviewSection from "@/components/OverviewSection";
 import Footer from "@/components/Footer";
 import FomoNotification from "@/components/FomoNotification";
 import { useLanguage } from "@/i18n/LanguageContext";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   const { lang } = useLanguage();
@@ -26,7 +27,17 @@ const Index = () => {
       <AboutSection />
       <FAQSection />
       <OverviewSection />
-      <Footer />
+            {/* DOMAINER_NAV:/articles/natural-beauty-ingredients */}
+      <Link
+        to="/articles/natural-beauty-ingredients"
+        className="block mx-6 md:mx-12 mb-4 rounded-2xl border border-border bg-card hover:bg-accent transition-colors duration-200 shadow-sm group"
+      >
+        <div className="px-6 py-5 flex items-center justify-between gap-4">
+          <span className="text-base font-semibold text-foreground group-hover:text-primary transition-colors">Natural Beauty Ingredients</span>
+          <span className="shrink-0 text-muted-foreground group-hover:text-primary transition-colors text-xl leading-none">→</span>
+        </div>
+      </Link>
+<Footer />
       <FomoNotification />
     <section className="py-16 px-6 md:px-12 bg-background">
   <div className="max-w-5xl mx-auto space-y-10">
