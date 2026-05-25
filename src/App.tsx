@@ -11,6 +11,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsConditions from "./pages/TermsConditions";
 import CryptoMining from "./pages/articles/CryptoMining";
 import AntiAgingSkincareTips from "./pages/articles/AntiAgingSkincareTips";
+import NaturalBeautyIngredients from "./pages/articles/NaturalBeautyIngredients";
 
 const queryClient = new QueryClient();
 
@@ -53,6 +54,8 @@ const App = () => (
         <Route path="/articles/crypto-mining" element={<CryptoMining />} />
         {/* DOMAINER_ROUTE:AntiAgingSkincareTips */}
         <Route path="/articles/anti-aging-skincare-tips" element={<AntiAgingSkincareTips />} />
+        {/* DOMAINER_ROUTE:NaturalBeautyIngredients */}
+        <Route path="/articles/natural-beauty-ingredients" element={<NaturalBeautyIngredients />} />
 </Routes>
       </BrowserRouter>
     </TooltipProvider>
