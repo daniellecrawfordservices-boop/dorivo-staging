@@ -12,6 +12,7 @@ import TermsConditions from "./pages/TermsConditions";
 import CryptoMining from "./pages/articles/CryptoMining";
 import AntiAgingSkincareTips from "./pages/articles/AntiAgingSkincareTips";
 import NaturalBeautyIngredients from "./pages/articles/NaturalBeautyIngredients";
+import KoreanBeautyRoutine from "./pages/articles/KoreanBeautyRoutine";
 
 const queryClient = new QueryClient();
 
@@ -56,6 +57,8 @@ const App = () => (
         <Route path="/articles/anti-aging-skincare-tips" element={<AntiAgingSkincareTips />} />
         {/* DOMAINER_ROUTE:NaturalBeautyIngredients */}
         <Route path="/articles/natural-beauty-ingredients" element={<NaturalBeautyIngredients />} />
+        {/* DOMAINER_ROUTE:KoreanBeautyRoutine */}
+        <Route path="/articles/korean-beauty-routine" element={<KoreanBeautyRoutine />} />
 </Routes>
       </BrowserRouter>
     </TooltipProvider>
