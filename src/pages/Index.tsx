@@ -47,6 +47,16 @@ const Index = () => {
           <span className="shrink-0 text-muted-foreground group-hover:text-primary transition-colors text-xl leading-none">→</span>
         </div>
       </Link>
+      {/* DOMAINER_NAV:/articles/korean-beauty-routine */}
+      <Link
+        to="/articles/korean-beauty-routine"
+        className="block mx-6 md:mx-12 mb-4 rounded-2xl border border-border bg-card hover:bg-accent transition-colors duration-200 shadow-sm group"
+      >
+        <div className="px-6 py-5 flex items-center justify-between gap-4">
+          <span className="text-base font-semibold text-foreground group-hover:text-primary transition-colors">Korean Beauty Routine</span>
+          <span className="shrink-0 text-muted-foreground group-hover:text-primary transition-colors text-xl leading-none">→</span>
+        </div>
+      </Link>
 <Footer />
       <FomoNotification />
     <section className="py-16 px-6 md:px-12 bg-background">
