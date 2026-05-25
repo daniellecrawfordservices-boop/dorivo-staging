@@ -9,6 +9,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsConditions from "./pages/TermsConditions";
+import CryptoMining from "./pages/articles/CryptoMining";
 
 const queryClient = new QueryClient();
 
@@ -47,7 +48,9 @@ const App = () => (
           <Route path="/:lang/privacy-policy" element={<WrappedPrivacyPolicy />} />
           <Route path="/:lang/terms-conditions" element={<WrappedTermsConditions />} />
           <Route path="*" element={<NotFound />} />
-        </Routes>
+                {/* DOMAINER_ROUTE:CryptoMining */}
+        <Route path="/articles/crypto-mining" element={<CryptoMining />} />
+</Routes>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
