@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  :root {
+    --background: 180 30% 8%;
+    --foreground: 160 10% 85%;
+
+    --card: 180 25% 12%;
+    --card-foreground: 160 10% 85%;
+
+    --popover: 180 25% 12%;
+    --popover-foreground: 160 10% 85%;
+
+    --primary: 160 100% 40%;
+    --primary-foreground: 180 30% 8%;
+
+    --secondary: 180 20% 15%;
+    --secondary-foreground: 160 10% 85%;
+
+    --muted: 180 15% 18%;
+    --muted-foreground: 160 10% 55%;
+
+    --accent: 160 100% 40%;
+    --accent-foreground: 180 30% 8%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 180 20% 18%;
+    --input: 180 20% 15%;
+    --ring: 160 100% 40%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 180 30% 8%;
+    --sidebar-foreground: 160 10% 85%;
+    --sidebar-primary: 160 100% 40%;
+    --sidebar-primary-foreground: 180 30% 8%;
+    --sidebar-accent: 180 20% 15%;
+    --sidebar-accent-foreground: 160 10% 85%;
+    --sidebar-border: 180 20% 18%;
+    --sidebar-ring: 160 100% 40%;
+  }
+
+  .phone-field .iti {
+    width: 100%;
+  }
+
+  .phone-field input {
+    width: 100%;
+    height: 56px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    padding-left: 90px !important;
+  }
+
+  .phone-field .iti__selected-flag {
+    background: transparent;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .phone-field .iti__country-list {
+    background: #0b1e1b;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .phone-field .iti__country:hover {
+    background: rgba(16, 185, 129, 0.2);
+  }
+
+  img.w-14.h-14.rounded-lg {
+    width: 100%;
+  }
+
+  img.w-12.h-12.rounded-full {
+    width: 28px;
+    height: 28px;
+  }
+
+  @media (min-width: 768px) {
+    img.w-12.h-12.rounded-full {
+      width: 14px;
+      height: 14px;
+    }
+  }
+  img.h-14.md\:h-16 {
+    height: 100px;
+    width: 41%;
+  }
+}
+
+.phone-field input,
+.phone-field .iti__tel-input,
+.phone-field .iti__search-input {
+  color: #000 !important;
+}
+
+.phone-field .iti__tel-input {
+  color: white !important;
+  -webkit-text-fill-color: white !important;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
