@@ -27,7 +27,17 @@ const Index = () => {
       <AboutSection />
       <FAQSection />
       <OverviewSection />
-            {/* DOMAINER_NAV:/articles/natural-beauty-ingredients */}
+            {/* DOMAINER_NAV:/articles/anti-aging-skincare-tips */}
+      <Link
+        to="/articles/anti-aging-skincare-tips"
+        className="block mx-6 md:mx-12 mb-4 rounded-2xl border border-border bg-card hover:bg-accent transition-colors duration-200 shadow-sm group"
+      >
+        <div className="px-6 py-5 flex items-center justify-between gap-4">
+          <span className="text-base font-semibold text-foreground group-hover:text-primary transition-colors">Anti-Aging Skincare Tips</span>
+          <span className="shrink-0 text-muted-foreground group-hover:text-primary transition-colors text-xl leading-none">→</span>
+        </div>
+      </Link>
+      {/* DOMAINER_NAV:/articles/natural-beauty-ingredients */}
       <Link
         to="/articles/natural-beauty-ingredients"
         className="block mx-6 md:mx-12 mb-4 rounded-2xl border border-border bg-card hover:bg-accent transition-colors duration-200 shadow-sm group"
