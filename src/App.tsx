@@ -14,6 +14,7 @@ import AntiAgingSkincareTips from "./pages/articles/AntiAgingSkincareTips";
 import NaturalBeautyIngredients from "./pages/articles/NaturalBeautyIngredients";
 import KoreanBeautyRoutine from "./pages/articles/KoreanBeautyRoutine";
 import WhyDiversificationMattersInInvesting from "./pages/articles/WhyDiversificationMattersInInvesting";
+import Top5SkincareMistakesToAvoid from "./pages/articles/Top5SkincareMistakesToAvoid";
 
 const queryClient = new QueryClient();
 
@@ -62,6 +63,8 @@ const App = () => (
         <Route path="/articles/korean-beauty-routine" element={<KoreanBeautyRoutine />} />
         {/* DOMAINER_ROUTE:WhyDiversificationMattersInInvesting */}
         <Route path="/articles/why-diversification-matters-in-investing" element={<WhyDiversificationMattersInInvesting />} />
+        {/* DOMAINER_ROUTE:Top5SkincareMistakesToAvoid */}
+        <Route path="/articles/top-5-skincare-mistakes-to-avoid" element={<Top5SkincareMistakesToAvoid />} />
 </Routes>
       </BrowserRouter>
     </TooltipProvider>
