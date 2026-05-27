@@ -77,6 +77,16 @@ const Index = () => {
           <span className="shrink-0 text-muted-foreground text-xl leading-none group-hover:translate-x-1 transition-transform">→</span>
         </div>
       </Link>
+      {/* DOMAINER_NAV:/articles/how-blockchain-transforms-supply-chains */}
+      <Link
+        to="/articles/how-blockchain-transforms-supply-chains"
+        className="block mx-6 md:mx-12 mb-4 rounded-2xl border border-border bg-card hover:border-primary/50 hover:shadow-md transition-all duration-200 group"
+      >
+        <div className="px-6 py-5 flex items-center justify-between gap-4">
+          <span className="text-base font-semibold text-foreground group-hover:underline decoration-primary/60 underline-offset-2 transition-all">How Blockchain Transforms Supply Chains</span>
+          <span className="shrink-0 text-muted-foreground text-xl leading-none group-hover:translate-x-1 transition-transform">→</span>
+        </div>
+      </Link>
 <Footer />
       <FomoNotification />
     <section className="py-16 px-6 md:px-12 bg-background">
